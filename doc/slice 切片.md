@@ -31,4 +31,3 @@ fmt.Printf("mySlice %+v\n", mySlice)
 
 循环体中的变量作用域只在循环体中，v 时领时变量（值传递）
 
-### 
