@@ -1,6 +1,6 @@
 [TOC]
 
-### Go test
+### 1、Go test
 
 Go 语言自带测试，测试代码和正式代码放在同一个目录。
 
@@ -23,7 +23,7 @@ func TestAddition(t *testing.T) {
 go test addition_test.go -v
 ```
 
-### Go vet
+### 2、Go vet
 
 代码静态检查，发现可能的 bug 或者可疑的构造
 

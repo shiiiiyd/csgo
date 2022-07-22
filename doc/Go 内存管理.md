@@ -4,7 +4,7 @@
 
 编辑：2022-07-22
 
-### 内存管理
+### 1、内存管理
 
 默认配置下，P的数量=CPU个数，可通过GOMAXPROCS修改，上限是256。
 
@@ -20,7 +20,7 @@ P的数量在调度器初始化的procresize中控制。
 
 ![内存管理](https://github.com/shiiiiyd/data/blob/main/images/image-20220721200025264.png?raw=true)
 
-> **TCMalloc**
+### 2、TCMalloc
 
 - page:内存页，一块8K 大小的内存空间。Go 与操作系统之间的内存申请和释放，都是以page 为单位的。
 - span: 内存块，一个或多个连续的page 组成一个span•sizeclass:空间规格，每个span 都带有一个sizeclass，标记着该span 中的page 应该如何使用。
@@ -34,11 +34,11 @@ P的数量在调度器初始化的procresize中控制。
   - 直接在PageHeap中选择适当的大小即可，128 Page的Span所保存的最大内存就是1MB。
   - 大对象分配流程•从large span set选择合适数量的页面组成span，用来存储数据。
 
-> **ThreadCacheMalloc 概述**
+### 3、ThreadCacheMalloc 概述
 
 ![image-20220721231931525](https://raw.githubusercontent.com/shiiiiyd/data/main/images/image-20220721231931525.png)
 
-### Go 语言内存分配
+### 4、Go 语言内存分配
 
 ![image-20220721232411515](https://github.com/shiiiiyd/data/blob/main/images/image-20220721232411515.png?raw=true)
 
@@ -53,7 +53,7 @@ P的数量在调度器初始化的procresize中控制。
   - 然后把Span分配到heapArena进行管理，它包含地址映射和span是否包含指针等位图
   - 为了更高效的分配、回收和再利用内存。
 
-> **内存回收**
+### 5、内存回收
 
 - 引用计数（Python，PHP，Swift）
   - 对每一个对象维护一个引用计数，当引用该对象的对象被销毁的时候，引用计数减1，当引用计数为0的时候，回收该对象•
@@ -66,7 +66,7 @@ P的数量在调度器初始化的procresize中控制。
 - 分代收集（Java）
   - 按照生命周期进行划分不同的代空间，生命周期长的放入老年代，短的放入新生代，新生代的回收频率高于老年代的频率。
 
-> **mspan**
+### 6、mspan
 
 - allocBits
   - 记录了每块内存分配的情况
@@ -79,7 +79,7 @@ P的数量在调度器初始化的procresize中控制。
 
 ![image-20220721234534818](https://github.com/shiiiiyd/data/blob/main/images/image-20220721234534818.png?raw=true)
 
-> **GC 工作流程**
+### 7、GC 工作流程
 
 Golang GC的大部分处理是和用户代码并行的
 
@@ -91,7 +91,7 @@ Golang GC的大部分处理是和用户代码并行的
 
 ![image-20220721233259564](https://github.com/shiiiiyd/data/blob/main/images/image-20220721233259564.png?raw=true)
 
-> **三色标记**
+### 8、三色标记
 
 - GC 开始时，认为所有object 都是白色，即垃圾。
 - 从root 区开始遍历，被触达的object 置成灰色。
@@ -101,7 +101,7 @@ Golang GC的大部分处理是和用户代码并行的
 
 ![image-20220721233435662](https://github.com/shiiiiyd/data/blob/main/images/image-20220721233435662.png?raw=true)
 
-> **垃圾回收机制**
+### 9、垃圾回收机制
 
 - 内存分配量达到阀值触发GC。
 
@@ -117,3 +117,7 @@ Golang GC的大部分处理是和用户代码并行的
 - 手动触发
 
   程序代码中也可以使用runtime.GC()来手动触发GC。这主要用于GC性能测试和统计。
+
+### 参考
+
+[1]. 极客时间
