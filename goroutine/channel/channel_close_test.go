@@ -1,6 +1,5 @@
 // 生产的消息的chan关闭后，在发送消息出现panic，
 // 使用 close()函数关闭chan通道
-//
 package channel_test
 
 import (
