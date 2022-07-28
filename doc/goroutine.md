@@ -1,3 +1,5 @@
+目录
+
 [toc]
 
 2021年4月13
@@ -58,7 +60,7 @@ ch = make(chan int, 0) // unbuffered channel
 ch = make(chan int, 3) // buffered channel with capacity 3
 ```
 
-### 三、fix 
+### 三、fix 错误
 
 **1、为了防止协程泄漏使用buffered channel（带缓存的channel）**
 
