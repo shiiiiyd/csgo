@@ -120,5 +120,4 @@ Golang GC的大部分处理是和用户代码并行的
 
 ### 参考
 
-[1]. 极客时间
-
+[1]:https://u.geekbang.org/subject/cloudnative?gk_cus_user_wechat=university

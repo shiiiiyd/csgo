@@ -102,3 +102,8 @@ func TestBufferChannel(t *testing.T) {
 
 ```
 
+
+
+### 参考
+
+[1]: https://xiaonuo.top/articles/2021/11/20/1637396988041.html	"GMP"

@@ -81,4 +81,5 @@ func main() {
 
 ### 参考
 
-[1]: 极客时间
+[1]: https://time.geekbang.org/course/detail/100024001-88546	"HTTP服务"
+[2]: https://time.geekbang.org/course/detail/100024001-91446	" RESTful服务"

@@ -32,7 +32,7 @@ func TestEmbeddedJson(t *testing.T) {
 	}
 }
 
-// 使用easyjson 自动生成解析的代码
+// 使用 easy-json 自动生成解析的代码
 func TestEasyJson(t *testing.T) {
 	e := Employee{}
 	e.UnmarshalJSON([]byte(jsonStr))
