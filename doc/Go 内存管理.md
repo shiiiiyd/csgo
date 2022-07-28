@@ -2,6 +2,8 @@
 
 [toc]
 
+
+
 编辑：2021-07-22
 
 ### 1、内存管理
@@ -120,4 +122,5 @@ Golang GC的大部分处理是和用户代码并行的
 
 ### 参考
 
-[1]:https://u.geekbang.org/subject/cloudnative?gk_cus_user_wechat=university
+[1]：https://u.geekbang.org/subject/cloudnative?gk_cus_user_wechat=university
+

@@ -2,6 +2,8 @@
 
 [toc]
 
+
+
 2021年4月13
 
 ### 一、Goroutine
@@ -106,4 +108,5 @@ func TestBufferChannel(t *testing.T) {
 
 ### 参考
 
-[1]: https://xiaonuo.top/articles/2021/11/20/1637396988041.html	"GMP"
+[1]：https://xiaonuo.top/articles/2021/11/20/1637396988041.html
+
