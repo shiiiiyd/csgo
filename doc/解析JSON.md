@@ -2,17 +2,15 @@
 
 [toc]
 
+2022 年 4 月 7 号
 
+### 一、reflect 模式解析 JSON
 
-2022年4月7号
-
-### 一、reflect模式解析JSON
-
-使用内置的reflect的方法可以用于解析配置文件，但是对于QPS较高的场景不适合
+使用内置的 reflect 的方法可以用于解析配置文件，但是对于 QPS 较高的场景不适合
 
 解析方式如下：
 
-struct类型
+struct 类型
 
 ```go
 package reflectjson
@@ -33,7 +31,7 @@ type Employee struct {
 
 ```
 
-解析JSON
+解析 JSON
 
 ```go
 package reflectjson
@@ -70,19 +68,19 @@ func TestEmbeddedJson(t *testing.T) {
 }
 ```
 
-### 二、使用easyJSON解析JSON
+### 二、使用 easyJSON 解析 JSON
 
-首先下载easyJSON，`go get -u github.com/mailru/easyjson/...`
+首先下载 easyJSON，`go get -u github.com/mailru/easyjson/...`
 
-然后使用easuJSON生成解析JSON的代码，包含了解析JSON的方法，生成代码命令如下，struct_json.go就是包含了json的go文件。
+然后使用 easuJSON 生成解析 JSON 的代码，包含了解析 JSON 的方法，生成代码命令如下，struct_json.go 就是包含了 json 的 go 文件。
 
 ```visual basic
 ~/go/bin/easyjson struct_json.go
 ```
 
-执行该命令后会生成一个struct_json_easyjson.go的文件，里面包含了MarshalJSON()函数，UnmarshalJSON()函数等。
+执行该命令后会生成一个 struct_json_easyjson.go 的文件，里面包含了 MarshalJSON()函数，UnmarshalJSON()函数等。
 
-使用生成的easyjson代码解析JSON
+使用生成的 easyjson 代码解析 JSON
 
 ```go
 package easyjson
@@ -163,11 +161,11 @@ func BenchmarkEasyJson(b *testing.B) {
 
 ```
 
-### 三、bench测试reflect和easyjson解析JSON效率
+### 三、bench 测试 reflect 和 easyjson 解析 JSON 效率
 
-使用`go test -bench=.`命令测试，表示测试当前目录下的所有bench测试用例。
+使用`go test -bench=.`命令测试，表示测试当前目录下的所有 bench 测试用例。
 
-如上面两个bench测试方法，测试结果如下所示：
+如上面两个 bench 测试方法，测试结果如下所示：
 
 ```visual basic
 csgo/json/easyJson on  main [!?] via 🐹 v1.17.12
@@ -185,4 +183,4 @@ PASS
 ok  	csgo/json/easyJson	4.453s
 ```
 
-可以看出easyjson解析的效率更好。
+可以看出 easyjson 解析的效率更好。
