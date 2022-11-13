@@ -4,6 +4,7 @@ import "testing"
 
 func TestArrayInit(t *testing.T) {
 	var arr [3]int
+	t.Log(arr)
 	arr1 := [3]int{1, 2, 3}
 	arr2 := [...]int{1, 2, 3, 4, 5}
 	t.Log(arr1, arr2)
