@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8bf7e8c-74d7-4732-ae03-dc3d3b9373d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csgo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch09/customer_type/customer_type_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch09/encapsulation/encap_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch09/interface/interface_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
       <recent name="$PROJECT_DIR$/go_learning/src/ch08/func" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestFn in go_learning/src/ch09/customer_type">
+  <component name="RunManager" selected="Go Test.TestString in go_learning/src/ch09/interface">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="csgo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,18 +92,6 @@
       <pattern value="^\QTestCreateEmployeeObj\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDefer in go_learning/src/ch08/func" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/ch08/func" />
-      <root_directory value="$PROJECT_DIR$/go_learning" />
-      <kind value="PACKAGE" />
-      <package value="go_learning/src/ch08/func" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestDefer\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestFn in go_learning/src/ch09/customer_type" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="csgo" />
       <working_directory value="$PROJECT_DIR$/go_learning/src/ch09/customer_type" />
@@ -120,6 +102,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestFn\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestString in go_learning/src/ch09/interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch09/interface" />
+      <root_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/src/ch09/interface" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestString\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestStructOperations in go_learning/src/ch09/encapsulation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -147,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestString in go_learning/src/ch09/interface" />
         <item itemvalue="Go Test.TestFn in go_learning/src/ch09/customer_type" />
         <item itemvalue="Go Test.TestClient in go_learning/src/ch09/interface" />
         <item itemvalue="Go Test.TestStructOperations in go_learning/src/ch09/encapsulation" />
         <item itemvalue="Go Test.TestCreateEmployeeObj in go_learning/src/ch09/encapsulation" />
-        <item itemvalue="Go Test.TestDefer in go_learning/src/ch08/func" />
       </list>
     </recent_temporary>
   </component>
