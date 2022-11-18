@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8bf7e8c-74d7-4732-ae03-dc3d3b9373d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch09/empty_interface/empty_interface_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch09/extension/extension_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch09/ploymorphsim/polymorphsim_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_learning/src/ch09/interface/interface_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/src/ch09/interface/interface_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,29 +39,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shiyd/go/src/github.com/csgo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/shiyd/go/src/github.com/csgo",
+    "settings.editor.selected.configurable": "http.proxy"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/go_learning/src/ch08/func" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestString in go_learning/src/ch09/interface">
+  <component name="RunManager" selected="Go Test.TestEmptyInterfaceAssertion in go_learning/src/ch09/empty_interface">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="csgo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -66,6 +70,15 @@
       <package value="github.com/csgo" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build polymorphsim.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="FILE" />
+      <package value="github.com/csgo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go_learning/src/ch09/ploymorphsim/polymorphsim.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestClient in go_learning/src/ch09/interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -80,52 +93,40 @@
       <pattern value="^\QTestClient\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCreateEmployeeObj in go_learning/src/ch09/encapsulation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDog in go_learning/src/ch09/extension" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/ch09/encapsulation" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch09/extension" />
       <root_directory value="$PROJECT_DIR$/go_learning" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/ch09/encapsulation" />
+      <package value="go_learning/src/ch09/extension" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCreateEmployeeObj\E$" />
+      <pattern value="^\QTestDog\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFn in go_learning/src/ch09/customer_type" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmptyInterfaceAssertion in go_learning/src/ch09/empty_interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/ch09/customer_type" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch09/empty_interface" />
       <root_directory value="$PROJECT_DIR$/go_learning" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/ch09/customer_type" />
+      <package value="go_learning/src/ch09/empty_interface" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestFn\E$" />
+      <pattern value="^\QTestEmptyInterfaceAssertion\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestString in go_learning/src/ch09/interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPolymorphism in go_learning/src/ch09/ploymorphsim" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/ch09/interface" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch09/ploymorphsim" />
       <root_directory value="$PROJECT_DIR$/go_learning" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/ch09/interface" />
+      <package value="go_learning/src/ch09/ploymorphsim" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestString\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestStructOperations in go_learning/src/ch09/encapsulation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/ch09/encapsulation" />
-      <root_directory value="$PROJECT_DIR$/go_learning" />
-      <kind value="PACKAGE" />
-      <package value="go_learning/src/ch09/encapsulation" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestStructOperations\E$" />
+      <pattern value="^\QTestPolymorphism\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestString in go_learning/src/ch09/interface" />
-        <item itemvalue="Go Test.TestFn in go_learning/src/ch09/customer_type" />
+        <item itemvalue="Go Test.TestEmptyInterfaceAssertion in go_learning/src/ch09/empty_interface" />
+        <item itemvalue="Go Test.TestPolymorphism in go_learning/src/ch09/ploymorphsim" />
+        <item itemvalue="Go Build.go build polymorphsim.go" />
         <item itemvalue="Go Test.TestClient in go_learning/src/ch09/interface" />
-        <item itemvalue="Go Test.TestStructOperations in go_learning/src/ch09/encapsulation" />
-        <item itemvalue="Go Test.TestCreateEmployeeObj in go_learning/src/ch09/encapsulation" />
+        <item itemvalue="Go Test.TestDog in go_learning/src/ch09/extension" />
       </list>
     </recent_temporary>
   </component>

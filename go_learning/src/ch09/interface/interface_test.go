@@ -11,6 +11,7 @@ type GoProgrammer struct {
 
 func (p *GoProgrammer) WriteHelloWorld() string {
 	return "fmt.println(\"Hello World\")"
+	//return `fmt.println("hello World")`
 }
 
 func TestClient(t *testing.T) {
