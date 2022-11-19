@@ -1,3 +1,3 @@
-module go_learning
+module github.com/shiiiiyd/csgo/go_learning
 
-go 1.17
+go 1.19
