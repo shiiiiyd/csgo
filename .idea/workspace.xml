@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="779dd732-0e5c-45fb-9a65-d27510f4bdd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch13/select/select_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch14/channel_close/channel_close_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch15/singleton/singleton_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch15/util_anyone_reply/first_response_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/fiber/fiber_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/type/number_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/type/number_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_learning/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_learning/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_learning/src/ch03/type_test/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/src/ch03/type_test/type_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_learning/src/ch04/operator_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/src/ch04/operator_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_learning/src/ch11/remote_package/remote_package_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/src/ch11/remote_package/remote_package_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goroutine/channel/buffer_channel_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutine/channel/buffer_channel_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goroutine/channel/channel_close_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutine/channel/channel_close_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goroutine/channel/obj_pool_by_bufChan/objpool_bufchan_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutine/channel/obj_pool_by_bufChan/objpool_bufchan_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,25 +54,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.TestSingleton in github.com/shiiiiyd/csgo/go_learning/src/ch15/singleton">
+  <component name="RunManager" selected="Go Test.Test_square in github.com/shiiiiyd/csgo/go_learning/src/ch16/test">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="github.com/shiiiiyd/csgo" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestAsyncService in github.com/shiiiiyd/csgo/go_learning/src/ch13/csp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/ch13/csp" />
-      <root_directory value="$PROJECT_DIR$/go_learning" />
-      <kind value="PACKAGE" />
-      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch13/csp" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestAsyncService\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestChannelClose in github.com/shiiiiyd/csgo/go_learning/src/ch14/channel_close" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -103,30 +75,6 @@
       <pattern value="^\QTestChannelClose\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFiber in github.com/shiiiiyd/csgo/go_learning/src/fiber" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/fiber" />
-      <root_directory value="$PROJECT_DIR$/go_learning" />
-      <kind value="PACKAGE" />
-      <package value="github.com/shiiiiyd/csgo/go_learning/src/fiber" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestFiber\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSelect in github.com/shiiiiyd/csgo/go_learning/src/ch13/select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/ch13/select" />
-      <root_directory value="$PROJECT_DIR$/go_learning" />
-      <kind value="PACKAGE" />
-      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch13/select" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSelect\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestSingleton in github.com/shiiiiyd/csgo/go_learning/src/ch15/singleton" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="csgo" />
       <working_directory value="$PROJECT_DIR$/go_learning/src/ch15/singleton" />
@@ -137,6 +85,42 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestSingleton\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSyncPool in github.com/shiiiiyd/csgo/go_learning/src/ch16/obj_cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch16/obj_cache" />
+      <root_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch16/obj_cache" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSyncPool\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSyncPoolMultiGoroutine in github.com/shiiiiyd/csgo/go_learning/src/ch16/obj_cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch16/obj_cache" />
+      <root_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch16/obj_cache" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSyncPoolMultiGoroutine\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_square in github.com/shiiiiyd/csgo/go_learning/src/ch16/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch16/test" />
+      <root_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch16/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_square\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -150,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_square in github.com/shiiiiyd/csgo/go_learning/src/ch16/test" />
+        <item itemvalue="Go Test.TestSyncPoolMultiGoroutine in github.com/shiiiiyd/csgo/go_learning/src/ch16/obj_cache" />
+        <item itemvalue="Go Test.TestSyncPool in github.com/shiiiiyd/csgo/go_learning/src/ch16/obj_cache" />
         <item itemvalue="Go Test.TestSingleton in github.com/shiiiiyd/csgo/go_learning/src/ch15/singleton" />
         <item itemvalue="Go Test.TestChannelClose in github.com/shiiiiyd/csgo/go_learning/src/ch14/channel_close" />
-        <item itemvalue="Go Test.TestFiber in github.com/shiiiiyd/csgo/go_learning/src/fiber" />
-        <item itemvalue="Go Test.TestSelect in github.com/shiiiiyd/csgo/go_learning/src/ch13/select" />
-        <item itemvalue="Go Test.TestAsyncService in github.com/shiiiiyd/csgo/go_learning/src/ch13/csp" />
       </list>
     </recent_temporary>
   </component>
