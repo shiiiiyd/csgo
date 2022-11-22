@@ -26,6 +26,7 @@ func dataReceiver(ch chan int, wg *sync.WaitGroup) {
 		for {
 			if data, ok := <-ch; ok {
 				fmt.Println(data)
+				fmt.Println("good")
 			} else {
 				break
 			}

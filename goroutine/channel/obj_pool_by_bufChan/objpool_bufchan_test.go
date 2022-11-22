@@ -1,10 +1,11 @@
 package channel_test
 
 import (
-	channel "csgo/goroutine/channel/obj_pool_by_bufChan"
 	"fmt"
 	"testing"
 	"time"
+
+	channel "github.com/shiiiiyd/csgo/goroutine/channel/obj_pool_by_bufChan"
 )
 
 func TestObjPool(t *testing.T) {

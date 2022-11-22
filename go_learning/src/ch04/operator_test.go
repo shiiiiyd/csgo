@@ -1,6 +1,9 @@
 package operator_test
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 const (
 	Readable = 1 << iota
@@ -16,6 +19,7 @@ func TestCompareArray(t *testing.T) {
 	t.Log(a == b)
 	//t.Log(a==c)
 	t.Log(a == d)
+	fmt.Println("dd")
 }
 
 func TestBitClear(t *testing.T) {

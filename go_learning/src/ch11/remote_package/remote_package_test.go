@@ -1,8 +1,9 @@
 package remote_package
 
 import (
-	cm "github.com/easierway/concurrent_map"
 	"testing"
+
+	cm "github.com/easierway/concurrent_map"
 )
 
 func TestConcurrentMap(t *testing.T) {

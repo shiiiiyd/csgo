@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="779dd732-0e5c-45fb-9a65-d27510f4bdd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch13/select/select_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch14/channel_close/channel_close_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch15/singleton/singleton_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch15/util_anyone_reply/first_response_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/fiber/fiber_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/type/number_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/type/number_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_learning/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_learning/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_learning/src/ch03/type_test/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/src/ch03/type_test/type_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_learning/src/ch04/operator_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/src/ch04/operator_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_learning/src/ch11/remote_package/remote_package_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/src/ch11/remote_package/remote_package_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroutine/channel/buffer_channel_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutine/channel/buffer_channel_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroutine/channel/channel_close_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutine/channel/channel_close_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroutine/channel/obj_pool_by_bufChan/objpool_bufchan_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutine/channel/obj_pool_by_bufChan/objpool_bufchan_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HnQKGpOoVOfBCZuv92z8besCfO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shiyd&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Go Test.TestSingleton in github.com/shiiiiyd/csgo/go_learning/src/ch15/singleton">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAsyncService in github.com/shiiiiyd/csgo/go_learning/src/ch13/csp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch13/csp" />
+      <root_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch13/csp" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestAsyncService\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestChannelClose in github.com/shiiiiyd/csgo/go_learning/src/ch14/channel_close" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch14/channel_close" />
+      <root_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch14/channel_close" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestChannelClose\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFiber in github.com/shiiiiyd/csgo/go_learning/src/fiber" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/fiber" />
+      <root_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/fiber" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestFiber\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSelect in github.com/shiiiiyd/csgo/go_learning/src/ch13/select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch13/select" />
+      <root_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch13/select" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSelect\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSingleton in github.com/shiiiiyd/csgo/go_learning/src/ch15/singleton" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch15/singleton" />
+      <root_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch15/singleton" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSingleton\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/shiiiiyd/csgo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestSingleton in github.com/shiiiiyd/csgo/go_learning/src/ch15/singleton" />
+        <item itemvalue="Go Test.TestChannelClose in github.com/shiiiiyd/csgo/go_learning/src/ch14/channel_close" />
+        <item itemvalue="Go Test.TestFiber in github.com/shiiiiyd/csgo/go_learning/src/fiber" />
+        <item itemvalue="Go Test.TestSelect in github.com/shiiiiyd/csgo/go_learning/src/ch13/select" />
+        <item itemvalue="Go Test.TestAsyncService in github.com/shiiiiyd/csgo/go_learning/src/ch13/csp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
