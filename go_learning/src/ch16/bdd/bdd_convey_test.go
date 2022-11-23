@@ -8,7 +8,7 @@ import (
 
 func TestSpec(t *testing.T) {
 	Convey("Given 2 even numbers", t, func() {
-		a := 3
+		a := 2
 		b := 4
 		Convey("When and the two numbersd", func() {
 			c := a + b
