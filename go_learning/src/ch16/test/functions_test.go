@@ -1,6 +1,11 @@
 package test
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+
+	"github.com/stretchr/testify/assert"
+)
 
 func Test_square(t *testing.T) {
 	type args struct {
@@ -35,5 +40,28 @@ func TestSquare(t *testing.T) {
 		if ret != want[i] {
 			t.Errorf("input is %d, want %d, actual %d", inputs[i], want[i], ret)
 		}
+	}
+}
+
+// Fail,Erro：该测试失败，但继续执行，其他测试继续执行
+// FailNow，Fatal：该测试失败，该测试中止，其他测试继续执行
+func TestErrorInCode(t *testing.T) {
+	fmt.Println("Start")
+	t.Errorf("Error")
+	fmt.Println("End")
+}
+
+func TestFailIncode(t *testing.T) {
+	fmt.Println("Start")
+	t.Fatal("Error")
+	fmt.Println("End")
+}
+
+func TestSquareWithAssert(t *testing.T) {
+	inputs := [...]int{1, 2, 3}
+	want := [...]int{1, 4, 9}
+	for i := 0; i < len(inputs); i++ {
+		ret := square(inputs[i])
+		assert.Equal(t, want[i], ret)
 	}
 }

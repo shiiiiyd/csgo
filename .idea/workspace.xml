@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="779dd732-0e5c-45fb-9a65-d27510f4bdd3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_learning/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_learning/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_learning/src/ch16/test/functions_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/src/ch16/test/functions_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,26 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shiyd&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/shiyd",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Go Test.Test_square in github.com/shiiiiyd/csgo/go_learning/src/ch16/test">
+}]]></component>
+  <component name="RunManager" selected="Go Test.TestObjPool in github.com/shiiiiyd/csgo/go_learning/src/ch15/obj_pool">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -63,16 +66,16 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestChannelClose in github.com/shiiiiyd/csgo/go_learning/src/ch14/channel_close" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestObjPool in github.com/shiiiiyd/csgo/go_learning/src/ch15/obj_pool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/ch14/channel_close" />
+      <working_directory value="$PROJECT_DIR$/go_learning/src/ch15/obj_pool" />
       <root_directory value="$PROJECT_DIR$/go_learning" />
       <kind value="PACKAGE" />
-      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch14/channel_close" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch15/obj_pool" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestChannelClose\E$" />
+      <pattern value="^\QTestObjPool\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSingleton in github.com/shiiiiyd/csgo/go_learning/src/ch15/singleton" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestObjPool in github.com/shiiiiyd/csgo/go_learning/src/ch15/obj_pool" />
         <item itemvalue="Go Test.Test_square in github.com/shiiiiyd/csgo/go_learning/src/ch16/test" />
         <item itemvalue="Go Test.TestSyncPoolMultiGoroutine in github.com/shiiiiyd/csgo/go_learning/src/ch16/obj_cache" />
         <item itemvalue="Go Test.TestSyncPool in github.com/shiiiiyd/csgo/go_learning/src/ch16/obj_cache" />
         <item itemvalue="Go Test.TestSingleton in github.com/shiiiiyd/csgo/go_learning/src/ch15/singleton" />
-        <item itemvalue="Go Test.TestChannelClose in github.com/shiiiiyd/csgo/go_learning/src/ch14/channel_close" />
       </list>
     </recent_temporary>
   </component>
