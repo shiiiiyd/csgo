@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="779dd732-0e5c-45fb-9a65-d27510f4bdd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch19/easyjson/easyjosn_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch19/easyjson/struct_def.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_learning/src/ch19/easyjson/struct_def_easyjson.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch19/httpserver/http_server_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch19/httpserver/restful_roa.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_learning/src/ch20/stradd/string_add_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_learning/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_learning/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_learning/src/ch06/array_test/array_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_learning/src/ch06/array_test/array_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/p1/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/p1/package_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/p2/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/p2/series.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +40,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shiyd&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/shiyd",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Go Test.BenchmarkName in github.com/shiiiiyd/csgo/go_learning/src/ch19/easyjson">
+}]]></component>
+  <component name="RunManager" selected="Go Build.go build github.com/shiiiiyd/csgo/go_learning/src/ch19/httpserver">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="github.com/shiiiiyd/csgo" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/shiiiiyd/csgo/go_learning/src/ch19/httpserver" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="csgo" />
+      <working_directory value="$PROJECT_DIR$/go_learning" />
+      <kind value="PACKAGE" />
+      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch19/httpserver" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go_learning/src/ch19/httpserver/restful_roa.go" />
       <method v="2" />
     </configuration>
     <configuration name="BenchmarkEmbeddedJson in github.com/shiiiiyd/csgo/go_learning/src/ch19/easyjson" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -121,18 +125,6 @@
       <pattern value="^\QTestObjPool\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_square in github.com/shiiiiyd/csgo/go_learning/src/ch16/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="csgo" />
-      <working_directory value="$PROJECT_DIR$/go_learning/src/ch16/test" />
-      <root_directory value="$PROJECT_DIR$/go_learning" />
-      <kind value="PACKAGE" />
-      <package value="github.com/shiiiiyd/csgo/go_learning/src/ch16/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_square\E$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
@@ -144,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/shiiiiyd/csgo/go_learning/src/ch19/httpserver" />
         <item itemvalue="Go Test.BenchmarkName in github.com/shiiiiyd/csgo/go_learning/src/ch19/easyjson" />
         <item itemvalue="Go Test.BenchmarkEmbeddedJson in github.com/shiiiiyd/csgo/go_learning/src/ch19/easyjson" />
         <item itemvalue="Go Test.TestEasyJson in github.com/shiiiiyd/csgo/go_learning/src/ch19/easyjson" />
         <item itemvalue="Go Test.TestObjPool in github.com/shiiiiyd/csgo/go_learning/src/ch15/obj_pool" />
-        <item itemvalue="Go Test.Test_square in github.com/shiiiiyd/csgo/go_learning/src/ch16/test" />
       </list>
     </recent_temporary>
   </component>
