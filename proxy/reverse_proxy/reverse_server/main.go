@@ -1,54 +1,46 @@
 package main
 
 import (
-   "fmt"
-   "io"
+   "bufio"
    "log"
    "net/http"
-   "os"
-   "os/signal"
-   "syscall"
-   "time"
+   "net/url"
 )
 
-type ReverseServer struct {
-   Addr string
-}
-
-func (r ReverseServer) Run() {
-   log.Println("Starting httpserver at " + r.Addr)
-   mux := http.NewServeMux()
-   mux.HandleFunc("/", r.HelloHandler)
-   mux.HandleFunc("/base/error", r.ErrorHandler)
-   server := &http.Server{
-      Addr:         r.Addr,
-      WriteTimeout: time.Second * 3,
-      Handler:      mux,
-   }
-   go func() {
-      log.Fatal(server.ListenAndServe())
-   }()
-}
-
-func (r ReverseServer) HelloHandler(w http.ResponseWriter, req *http.Request) {
-   upath := fmt.Sprintf("http://%s%s\n", r.Addr, req.URL.Path)
-   io.WriteString(w, upath)
-}
-
-func (r ReverseServer) ErrorHandler(w http.ResponseWriter, req *http.Request) {
-   upath := "error handler"
-   w.WriteHeader(500)
-   io.WriteString(w, upath)
-}
+var (
+   proxyAddr = "http://127.0.0.1:2003"
+   port      = "2002"
+)
 
 func main() {
-   rs1 := &ReverseServer{Addr: "127.0.0.1:2003"}
-   rs1.Run()
-   rs2 := &ReverseServer{Addr: "217.0.0.1:2004"}
-   rs2.Run()
+   http.HandleFunc("/", handler)
+   log.Println("Start serving on port " + port)
+   err := http.ListenAndServe(":"+port, nil)
+   if err != nil {
+      log.Fatal(err)
+   }
+}
 
-   // 监听关闭信号
-   quit := make(chan os.Signal)
-   signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
-   <-quit
+func handler(w http.ResponseWriter, r *http.Request) {
+   // step1: 解析代理地址，并更改请求体的协议和主机
+   proxy, err := url.Parse(proxyAddr)
+   r.URL.Scheme = proxy.Scheme
+   r.URL.Host = proxy.Host
+
+   // step2: 请求下游
+   transport := http.DefaultTransport
+   resp, err := transport.RoundTrip(r)
+   if err != nil {
+      log.Print(err)
+      return
+   }
+
+   // step3: 把下游请求内容返回给上游
+   for k, v := range resp.Header {
+      for _, v := range v {
+         w.Header().Add(k, v)
+      }
+   }
+   defer resp.Body.Close()
+   bufio.NewReader(resp.Body).WriteTo(w)
 }
