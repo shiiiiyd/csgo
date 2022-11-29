@@ -11,6 +11,7 @@ func GetFibonacci(n int) ([]int, error) {
 	if n < 0 || n > 10 {
 		return nil, errors.New("n should be in [0,10]")
 	}
+
 	fibList := []int{1, 1}
 
 	for i := 2; i < n; i++ {
